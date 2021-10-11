@@ -41,7 +41,7 @@ def model_inference(model, img_pil):
     result = session.run([output_name], {input_name: batch_t.numpy()})[0]
 
     # Get class names
-    with open('/home/matthew/Downloads/Deploy-Streamlit-App-on-Heroku/imagenet_classes.txt') as f:
+    with open('imagenet_classes.txt') as f:
         classes = [line.strip() for line in f.readlines()]
 
     # Get class name
