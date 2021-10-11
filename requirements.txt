@@ -3,7 +3,7 @@ matplotlib
 onnxruntime
 gunicorn
 numpy
-PIL
+pillow
 onnx
 onnxruntime
 torch 
