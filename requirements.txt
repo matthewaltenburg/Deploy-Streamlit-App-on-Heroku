@@ -1,0 +1,10 @@
+streamlit
+matplotlib
+onnxruntime
+gunicorn
+numpy
+PIL
+onnx
+onnxruntime
+torch 
+torchvision
